@@ -66,7 +66,7 @@ const onSubmit = async (event) => {
     const { ip } = await getIP();
 
     const body = JSON.stringify({
-      name: "nomad",
+      name: "superboss",
       email: formRef.email.value,
       browserId,
       ip,
